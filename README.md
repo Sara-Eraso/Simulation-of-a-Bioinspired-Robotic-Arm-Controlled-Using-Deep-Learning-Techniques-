@@ -1,0 +1,2 @@
+# Simulaci-n-de-un-brazo-rob-tico-bioinspirado-controlado-mediante-t-cnicas-de-deep-learning
+Un proyecto que explora cómo la electrónica puede acercarse al cuerpo humano. Esta tesis presenta la simulación de un brazo robótico bioinspirado controlado mediante técnicas de deep learning y señales reales EMG, creando movimientos más naturales, precisos y eficientes. Una propuesta enfocada en el futuro del control protésico y la biónica.
