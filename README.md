@@ -13,37 +13,56 @@ The dataset includes recordings of four upper limb movements. Each movement was 
 
 ### Elbow Flexion and Extension
 - **Muscles recorded:**  
-  - **Biceps brachii** (B)  
+  - **Biceps** (B)  
   - **Forearm / Antebrazo** (A) 
 - **Signal naming convention:**  
-  - **B** → Raw biceps EMG  
-  - **B_fft** → FFT-transformed biceps EMG  
-  - **A** → Raw forearm EMG  
-  - **A_fft** → FFT-transformed forearm EMG  
+  - **B** → Raw EMG of the bicep  
+  - **B_fft** → FFT transformed signal of B  
+  - **A** → Raw EMG os the forearm
+  - **A_fft** → FFT transformed signal of A  
 
 ---
 
-### Front Shoulder 
+### Frontal Shoulder 
 *(Vertical Adduction and Abduction of the Shoulder)*
 
 - **Muscles recorded:**  
-  - **Anterior Deltoid Frontal / Deltoides Anterios Hombro Frontal** (DAHF)  
-  - **Lateral Deltoid Frontal / Deltoides Externo Hombro Frontal** (DEHF)  
+  - **Anterior Deltoid Frontal Shoulder / Deltoides Anterior Hombro Frontal** (DAHF)  
+  - **Lateral Deltoid Frontal Shoulder / Deltoides Externo Hombro Frontal** (DEHF)  
 - **Signal naming convention:**  
-  - **DAHF** → Raw EMG of the Anterior Deltoid (Frontal)  
-  - **DAHF_fft** → FFT-transformed signal  
-  - **DEHF** → Raw EMG of the Lateral Deltoid (Frontal)  
-  - **DEHF_fft** → FFT-transformed signal  
+  - **DAHF** → Raw EMG of the Anterior Deltoid on the Frontal Plane
+  - **DAHF_fft** → FFT transformed signal of DAHF  
+  - **DEHF** → Raw EMG of the Lateral Deltoid on the Frontal Plane
+  - **DEHF_fft** → FFT transformed signal of DEHF
 
 ---
 
 ## Saggital Shoulder
-*(Flexion and Extension of the Shoulder)*
+*(Shoulder Flexion and Extension)*
+
+- **Muscles recorded:**  
+  - **Anterior Deltoid Sagittal Shoulder / Deltoides Anterior Hombro Sagital** (DAHS)  
+  - **Posterior Deltoid Sagittal Shoulder / Deltoides Posterior Hombro Sagital** (DPHS)  
+- **Signal naming convention:**  
+  - **DAHS** → Raw EMG of the Anterior Deltoid on the Sagittal Plane
+  - **DAHS_fft** → FFT transformed signal of the DAHS
+  - **DPHS** → Raw EMG of the Posterior Deltoid on the Sagittal Plane
+  - **DPHS_fft** → FFT transformed signal of DPHS
+
 
 ---
 
 ## Tranverse Shoulder
 *(Horizontal Adduction and Abduction of the Shoulder)*
+
+- **Muscles recorded:**  
+  - **Lateral Deltoid Transverse Shoulder / Deltoides Externo Hombro Transversal** (DEHT)  
+  - **Posterior Deltoid Transverse Shoulder / Deltoides Posterior Hombro Trasnversal** (DPHT)  
+- **Signal naming convention:**  
+  - **DEHT** → Raw EMG of the Lateral Deltoid on the Transverse Plane
+  - **DEHT_fft** → FFT transformed signal of DEHT
+  - **DPHT** → Raw EMG of the Posterior Deltoid on the Transverse Plane
+  - **DPHT_fft** → FFT transformed signal of DPHT
 
 
 
@@ -54,7 +73,7 @@ Each signal is stored in CSV format for easy integration with Python, MATLAB, an
 ## 2. simulation
 
 
-## 3. modelues
+## 3. models
 
 
 ## 4. figures
