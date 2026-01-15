@@ -3,9 +3,52 @@ A project that explores how electronics can move closer to the human body. This 
 
 # Content
 ## 1. data
+
+This folder contains the surface EMG signals acquired using the **FREYA EMG Sensor** system.  
+The dataset includes recordings of four upper limb movements. Each movement was captured using surface electrodes placed over specific muscle groups, and both raw signals and their corresponding FFT transformations are provided.
+
+---
+
+### Elbow Flexion and Extension
+- **Muscles recorded:**  
+  - Biceps brachii  
+  - Forearm flexor group  
+- **Signal naming convention:**  
+  - **B** → Raw biceps EMG  
+  - **B_fft** → FFT-transformed biceps EMG  
+  - **A** → Raw forearm EMG  
+  - **A_fft** → FFT-transformed forearm EMG  
+
+---
+
+### Shoulder Frontal Movement  
+*(Vertical Adduction and Abduction of the Shoulder)*
+
+- **Muscles recorded:**  
+  - **Anterior Deltoid Frontal** (DAHF)  
+  - **Lateral Deltoid Frontal** (DEHF)  
+- **Signal naming convention:**  
+  - **DAHF** → Raw EMG of the Anterior Deltoid (Frontal)  
+  - **DAHF_fft** → FFT-transformed signal  
+  - **DEHF** → Raw EMG of the Lateral Deltoid (Frontal)  
+  - **DEHF_fft** → FFT-transformed signal  
+
+---
+
+Each signal is stored in CSV format for easy integration with Python, MATLAB, and deep learning pipelines.  
+
+
+
 ## 2. simulation
-## 3. figures
-## 4. documents
+
+
+## 3. modelues
+
+
+## 4. figures
+
+
+## 5. documents
 
 
 
