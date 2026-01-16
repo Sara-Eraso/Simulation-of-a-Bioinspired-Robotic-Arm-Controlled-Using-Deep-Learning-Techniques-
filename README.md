@@ -37,7 +37,7 @@ The dataset includes recordings of four upper limb movements. Each movement was 
 
 ---
 
-## Saggital Shoulder
+### Saggital Shoulder
 *(Shoulder Flexion and Extension)*
 
 - **Muscles recorded:**  
@@ -52,7 +52,7 @@ The dataset includes recordings of four upper limb movements. Each movement was 
 
 ---
 
-## Tranverse Shoulder
+### Tranverse Shoulder
 *(Horizontal Adduction and Abduction of the Shoulder)*
 
 - **Muscles recorded:**  
@@ -71,6 +71,8 @@ Each signal is stored in CSV format for easy integration with Python, MATLAB, an
 
 
 ## 2. simulation
+
+The robotic arm simulation was performed in Matlab. The .mlx file is attached in the folder under the name “Simulación de un brazo robótico bioinspirado”
 
 
 ## 3. models
