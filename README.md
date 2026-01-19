@@ -72,7 +72,9 @@ Each signal is stored in CSV format for easy integration with Python, MATLAB, an
 
 ## 2. simulation
 
-The robotic arm simulation was performed in Matlab. The .mlx file is attached in the folder under the name “Simulación de un brazo robótico bioinspirado”
+The robotic arm simulation was performed in Matlab. The .mlx file is attached in the folder under the name “Simulación de un brazo robótico bioinspirado”.
+
+Transformation matrices based on Denavith-Hartenberg parameters were used to develop the simulation. Efforts were also made to ensure that the final position vector, referred to in the simulation as q_brazo_final, functioned similarly to the vector used by the Kinova 3Gen Lite arm, in order to guarantee that the simulation and the arm's operation would function identically.
 
 
 ## 3. models
