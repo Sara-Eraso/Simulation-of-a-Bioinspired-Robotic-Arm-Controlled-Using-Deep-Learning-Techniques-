@@ -11,7 +11,13 @@ The dataset includes recordings of four upper limb movements. Each movement was 
 
 ---
 
+Each pulse was performed every 3 seconds, giving a total of 15 seconds per set.
+
 ### Elbow Flexion and Extension
+
+- **Angles Sequence;**
+  - 30° - 60° - 90° - 120° - 150°
+
 - **Muscles recorded:**  
   - **Biceps** (B)  
   - **Forearm / Antebrazo** (A) 
@@ -25,6 +31,9 @@ The dataset includes recordings of four upper limb movements. Each movement was 
 
 ### Frontal Shoulder 
 *(Vertical Adduction and Abduction of the Shoulder)*
+
+- **Angles Sequence;**
+  - 30° - 60° - 90° - 120° - 150°
 
 - **Muscles recorded:**  
   - **Anterior Deltoid Frontal Shoulder / Deltoides Anterior Hombro Frontal** (DAHF)  
@@ -40,6 +49,9 @@ The dataset includes recordings of four upper limb movements. Each movement was 
 ### Saggital Shoulder
 *(Shoulder Flexion and Extension)*
 
+- **Angles Sequence;**
+  - 30° - 60° - 90° - 120° - 150°
+
 - **Muscles recorded:**  
   - **Anterior Deltoid Sagittal Shoulder / Deltoides Anterior Hombro Sagital** (DAHS)  
   - **Posterior Deltoid Sagittal Shoulder / Deltoides Posterior Hombro Sagital** (DPHS)  
@@ -54,6 +66,9 @@ The dataset includes recordings of four upper limb movements. Each movement was 
 
 ### Tranverse Shoulder
 *(Horizontal Adduction and Abduction of the Shoulder)*
+
+- **Angles Sequence;**
+  - 18° - 36° - 54° - 72° - 90°
 
 - **Muscles recorded:**  
   - **Lateral Deltoid Transverse Shoulder / Deltoides Externo Hombro Transversal** (DEHT)  
