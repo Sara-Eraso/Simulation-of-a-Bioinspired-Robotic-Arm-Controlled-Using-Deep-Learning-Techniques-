@@ -10,9 +10,9 @@ The dataset includes recordings of four upper limb movements. Each movement was 
 A total of 10 participants with different body types were recruited to ensure signal variability.
 Each participant performed 40 series (10 per movement), resulting in:
 
-* - 100 EMG signals per movement*
+- 100 EMG signals per movement
 
-* - 5 pulses per series*
+- 5 pulses per series
 
 **Important:** The conventions are the initials of the name of the muscle and the correponding movement in Spanish.
 
