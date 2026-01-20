@@ -7,6 +7,13 @@ A project that explores how electronics can move closer to the human body. This 
 This folder contains the surface EMG signals acquired using the **FREYA EMG Sensor** system.  
 The dataset includes recordings of four upper limb movements. Each movement was captured using surface electrodes placed over specific muscle groups, and both raw signals and their corresponding FFT transformations are provided.
 
+A total of 10 participants with different body types were recruited to ensure signal variability.
+Each participant performed 40 series (10 per movement), resulting in:
+
+* - 100 EMG signals per movement*
+
+* - 5 pulses per series*
+
 **Important:** The conventions are the initials of the name of the muscle and the correponding movement in Spanish.
 
 ---
@@ -79,10 +86,7 @@ Each pulse was performed every 3 seconds, giving a total of 15 seconds per set.
   - **DPHT** → Raw EMG of the Posterior Deltoid on the Transverse Plane
   - **DPHT_fft** → FFT transformed signal of DPHT
 
-
-
 Each signal is stored in CSV format for easy integration with Python, MATLAB, and deep learning pipelines.  
-
 
 
 ## 2. simulation
