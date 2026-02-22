@@ -1,0 +1,20 @@
+python .\narx_b_only.py `
+  --data-ch1 "C:\Users\pjjt0\OneDrive\Escritorio\Señales Freya EMG 2 Canales\Señales Freya EMG 2 Canales\Hombro Sagital (Flexión y Extesnsión de hombro)\Deltoides Anterior Hombro Sagital\DAHS" `
+  --data-ch2 "C:\Users\pjjt0\OneDrive\Escritorio\Señales Freya EMG 2 Canales\Señales Freya EMG 2 Canales\Hombro Sagital (Flexión y Extesnsión de hombro)\Deltoides Posterior Hombro Sagital\DPHS" `
+  --pattern-ch1 "*.csv" `
+  --pattern-ch2 "*.csv" `
+  --pair-mode number `
+  --angles "30,60,90,120,150" `
+  --model sklearn `
+  --scaler robust `
+  --per-file-norm `
+  --n-u 32 `
+  --n-y 1 `
+  --save-dir "C:\Users\pjjt0\OneDrive\Escritorio\GraficasBA\HOMBRO_SAGITAL_BASE_nu32_ny1" `
+  --eval-autoreg `
+  --ar-feed mix `
+  --mix-beta 0.8 `
+  --ema 3 `
+  --dy-max 12 `
+  --y-clip "20,160" `
+  --seed-angle 30
